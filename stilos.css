@@ -1,0 +1,148 @@
+body {
+    margin:20px;
+    background-color: rgba(31, 30, 30, 0.837);
+    background-image: url("matrix.JPG");
+}
+
+.zone {
+    /*padding:30px 50px;
+    margin:40px 60px;*/
+    /*  */
+    /* display: inline-block; */
+    margin: 10px;
+    color:#FFF;
+    font-size: 2em;
+    border-radius: 4px;
+    border:1px solid #bbb;
+    transition:all 0.3s linear;
+}
+
+.box:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, 10px;
+}
+
+ /* .sticky {
+    position: fixed;
+    top: 0;
+}  */
+
+/* NAV */
+.main-nav {
+    display:flex;
+    list-style: none;
+    font-size: 0.8em;
+    margin: 25px 0 30px 0;
+}
+
+
+@media only screen and (max-width:600px) {
+    .main-nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
+
+    .grid-wrapper {
+        margin-top: 100px 30px;
+        padding: 30px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) ;
+    }
+
+    .box {
+        padding: 60px;
+        margin: 20px;
+    }
+
+    .box > img {
+        width:50%;
+    }
+}
+
+
+li {
+    padding:20px;
+}
+
+a {
+  color: #680c6a;
+  text-decoration: none;
+}
+
+/* COVER */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+/* GRID */
+.grid-wrapper {
+    margin-top: 200px;
+    padding: 50px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) ;
+}
+
+a > img {
+    width:100%;
+}
+
+.cover {
+    width:50rem;
+}
+
+.box {
+    background-color: #e5ecee;
+    padding: 50px;
+    margin: 20px;
+    cursor:pointer;
+}
+
+.green {
+    margin: 40px 0 40px 0;
+    background-color: rgb(135, 207, 135);
+}
+
+
+.black {
+    background-color: rgb(50, 49, 49);
+    color: #bbb
+}
+
+.footer {
+    background-color: rgb(50, 49, 49);
+    color: #bbb;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.blue {
+    background-color: rgb(230, 237, 239);
+}
+
+/* .yellow {
+    background-color: gold;
+    justify-content: center;
+} */
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(100, 185, 14);
+}
+
+.push {
+    margin-left: auto;
+}
+
+footer {
+    margin-top: 30px;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
